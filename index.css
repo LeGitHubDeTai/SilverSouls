@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(90deg, steelblue, tomato);
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+}
+body div.class{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 500px;
+    transition: 5s;
+}
+body div.class img{
+    --dim: 100px;
+    width: var(--dim);
+    height: var(--dim);
+}
+audio{
+    display: none;
+}
+img.manger{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 10%;
+}
+img.douche{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 20%;
+    filter: invert();
+}
